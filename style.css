@@ -222,3 +222,159 @@ main {
     height: 90%;
     width: 90%;   
 }
+
+#zonas-explicacao {
+    background-image: url('./images/Mapa\ mundi\ mascara.png');
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat;   
+
+    font-family: "Abhaya Libre", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 200vh;
+}
+
+.header-explicacao-zonas {
+    display: flex; /* Utiliza Flexbox */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    flex-direction: column; /* Organiza os itens em coluna */
+    width: 60%; /* Garante que o container ocupe toda a largura */
+    text-align: center; /* Centraliza o texto dentro dos elementos */
+}
+
+#zonas-explicacao h1 {
+    color: #720D20; 
+    font-size: 120px;
+    padding-top: 20px;
+}
+
+#zonas-explicacao p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #720D20;
+    color: white; 
+    font-size: 32px;
+    padding: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.polar {
+    padding: 50px;
+    padding-top: 100px;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.polar img {
+    height: 80vh;
+}
+
+#txtpolar {
+    background-color: #F6EFE4;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50vw;
+    border: 2px solid black;
+}
+
+#txtpolar h2{
+    color: #720D20;
+    font-size: 80px;
+}
+
+#txtpolar span{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #720D20;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.temperado {
+    padding: 50px;
+    padding-top: 300px;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.temperado img {
+    height: 60vh;
+}
+
+#txttemperado {
+    background-color: #F6EFE4;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50vw;
+    border: 2px solid black;
+}
+
+#txttemperado h2{
+    color: #720D20;
+    font-size: 80px;
+}
+
+#txttemperado span{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #720D20;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.tropical {
+    padding: 50px;
+    padding-top: 100px;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tropical img {
+    padding-right: 8vw;
+    height: 60vh;
+}
+
+#txttropical {
+    background-color: #F6EFE4;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50vw;
+    border: 2px solid black;
+}
+
+#txttropical h2{
+    color: #720D20;
+    font-size: 80px;
+}
+
+#txttropical span{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #720D20;
+    font-size: 40px;
+    font-weight: 700;
+}
