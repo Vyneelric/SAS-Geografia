@@ -1,126 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-    <title>Geografia</title>
-</head>
-<body>
-    <header>
-        <a href="#home">
-            <img src="./images/logo home.png" alt="logo-home">
-        </a>
-        <nav>
-            <ul>
-                <li><a href="#zonas">Zonas Climáticas</a></li>
-                <li><a href="#nino-nina">El niño/La niña</a></li>
-                <li><a href="#massa-ar">Massas de ar</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div>
-            <section id="home" class="grupo">
-                <div class="textura amassada"></div>
-                <div class="textura sujeira"></div>
-                <h2>Projeto</h2>
-                <h1>Geografia</h1>
-                <h3>ASSUNTO: MAPAS</h3>
-                <p>Este trabalho tem como objetivo principal apresentar, de forma visual, eventos climáticos por meio de projeções cartográficas, com fins de uso público.</p>
-                <div>
-                    <span>Por</span>
-                    <span>Vinicus José<br>João Campos<br>Andrei Fiuza</span>
-                </div>
-            </section>
-            <section id="zonas" class="grupo">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+        <title>Geografia</title>
+    </head>
+    <body>
+        <header>
+            <a href="#home">
+                <img src="./images/logo home.png" alt="logo-home">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#zonas">Zonas Climáticas</a></li>
+                    <li><a href="#nino-nina">El niño/La niña</a></li>
+                    <li><a href="#massa-ar">Massas de ar</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <section id="home" class="grupo">
                     <div class="textura amassada"></div>
                     <div class="textura sujeira"></div>
-                <div class="conteudo">
-                    <h1>ZONAS CLIMÁTICAS</h1>
-                    <a href="#zonas-explicacao">
-                        <img src="./images/zonas climaticas.png" alt="mapa_zonas_climaticas">
+                    <h2>Projeto</h2>
+                    <h1>Geografia</h1>
+                    <h3>ASSUNTO: MAPAS</h3>
+                    <p>Este trabalho tem como objetivo principal apresentar, de forma visual, eventos climáticos por meio de projeções cartográficas, com fins de uso público.</p>
+                    <div>
+                        <span>Por</span>
+                        <span>Vinicus José<br>João Campos<br>Andrei Fiuza</span>
+                    </div>
+                </section>
+                <section id="zonas" class="grupo">
+                        <div class="textura amassada"></div>
+                        <div class="textura sujeira"></div>
+                    <div class="conteudo">
+                        <h1>ZONAS CLIMÁTICAS</h1>
+                        <a href="#zonas-explicacao">
+                            <img src="./images/zonas climaticas.png" alt="mapa_zonas_climaticas">
+                        </a>
+                    </div>
+                </section>
+                <section id="zonas-explicacao" class="grupo">
+                    <div class="header-explicacao-zonas">
+                        <h1>EXPLICAÇÃO</h1>
+                        <p>As zonas climáticas dividem o planeta em regiões com</p>
+                        <p>climas semelhantes.</p>
+                    </div>
+                    <div class="polar">
+                        <img src="./images/mundo polar.png" alt="">
+                        <div id="txtpolar" class="iconesmundo">
+                            <h2>POLAR</h2>
+                            <span>A zona polar tem temperaturas muito baixas, invernos rigorosos e verões curtos. Está nos polos, com pouca incidência solar,
+                                neve e gelo predominantes, e fauna e flora adaptadas ao frio extremo.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="temperado">
+                        <div id="txttemperado" class="iconesmundo">
+                            <h2>TEMPERADO</h2>
+                            <span>A zona temperada está entre os trópicos e os círculos polares, apresentando as quatro estações do ano bem definidas.
+                                O clima varia de moderado a frio, com temperaturas médias e níveis de precipitação que podem mudar bastante.
+                            </span>
+                        </div>
+                        <img src="./images/mundo temperado.png" alt="">
+                    </div>
+                    <div class="tropical">
+                        <img src="./images/mundo tropical.png" alt="">
+                        <div id="txttropical" class="iconesmundo">
+                            <h2>TROPICAL</h2>
+                            <span>A zona tropical localiza-se entre os trópicos de Câncer e Capricórnio, caracterizando-se por temperaturas altas durante todo o ano. 
+                                É marcada por duas estações principais: uma chuvosa e outra seca.</span>
+                        </div>
+                    </div>
+                </section>
+                <section id="nino-nina" class="grupo">
+                    <h1>EL NIÑO X EL NIÑA</h1>
+                    <a href="#explicacao-nino-nina">
+                        <img src="./images/el nino mapa.png" alt="">
+                        <img src="./images/la nina mapa.png" alt="">
                     </a>
-                </div>
-            </section>
-            <section id="zonas-explicacao" class="grupo">
-                <div class="header-explicacao-zonas">
-                    <h1>EXPLICAÇÃO</h1>
-                    <p>As zonas climáticas dividem o planeta em regiões com</p>
-                    <p>climas semelhantes.</p>
-                </div>
-                <div class="polar">
-                    <img src="./images/mundo polar.png" alt="">
-                    <div id="txtpolar" class="iconesmundo">
-                        <h2>POLAR</h2>
-                        <span>A zona polar tem temperaturas muito baixas, invernos rigorosos e verões curtos. Está nos polos, com pouca incidência solar,
-                             neve e gelo predominantes, e fauna e flora adaptadas ao frio extremo.
-                        </span>
-                    </div>
-                </div>
-                <div class="temperado">
-                    <div id="txttemperado" class="iconesmundo">
-                        <h2>TEMPERADO</h2>
-                        <span>A zona temperada está entre os trópicos e os círculos polares, apresentando as quatro estações do ano bem definidas.
-                             O clima varia de moderado a frio, com temperaturas médias e níveis de precipitação que podem mudar bastante.
-                        </span>
-                    </div>
-                    <img src="./images/mundo temperado.png" alt="">
-                </div>
-                <div class="tropical">
-                    <img src="./images/mundo tropical.png" alt="">
-                    <div id="txttropical" class="iconesmundo">
-                        <h2>TROPICAL</h2>
-                        <span>A zona tropical localiza-se entre os trópicos de Câncer e Capricórnio, caracterizando-se por temperaturas altas durante todo o ano. 
-                            É marcada por duas estações principais: uma chuvosa e outra seca.</span>
-                    </div>
-                </div>
-            </section>
-            <section id="nino-nina" class="grupo">
-                <h1>EL NIÑO X EL NIÑA</h1>
-                <a href="#explicacao-nino-nina">
-                    <img src="./images/el nino mapa.png" alt="">
-                    <img src="./images/la nina mapa.png" alt="">
-                </a>
-            </section>
-            <section id="explicacao-nino-nina" class="grupo">
-                <div class="informacoes-nino-nina">
-                    <h1>INFORMAÇÕES</h1>
-                    <h2>Formação dos fenômenos</h2>
-                    <div class="foto-info-nino-nina">
-                        <img src="./images/explicacao el nino.png" alt="">
-                        <img src="./images/explicacao la nina.png" alt="">
-                    </div>
-                </div>
-                <div class="container-txt-nino-nina">
-                    <h1>EXPLICAÇÃO</h1>
-                    <div class="container-nino">
-                        <img src="./images/el nino - mulher ilustracao.png" alt="">
-                        <div class="container-nino-txt">
-                            <h2>EL NIÑO</h2>
-                            <p>Fenômeno de aquecimento anormal do Oceano Pacífico Equatorial,
-                            causando secas no norte do Brasil e Austrália, além de chuvas 
-                            intensas no sul do Brasil e na costa oeste da América do Sul.</p>
+                </section>
+                <section id="explicacao-nino-nina" class="grupo">
+                    <div class="informacoes-nino-nina">
+                        <h1>INFORMAÇÕES</h1>
+                        <h2>Formação dos fenômenos</h2>
+                        <div class="foto-info-nino-nina">
+                            <img src="./images/explicacao el nino.png" alt="">
+                            <img src="./images/explicacao la nina.png" alt="">
                         </div>
                     </div>
-                    <div class="container-nina">
-                        <div class="container-nina-txt">
-                            <h2>LA NIÑA</h2>
-                            <p>Resfriamento anormal do Pacífico Equatorial, 
-                            resultando em chuvas fortes no norte e nordeste do Brasil 
-                            e secas no sul do país e em partes da América do Norte.</p>
+                    <div class="container-txt-nino-nina">
+                        <h1>EXPLICAÇÃO</h1>
+                        <div class="container-nino">
+                            <img src="./images/el nino - mulher ilustracao.png" alt="">
+                            <div class="container-nino-txt">
+                                <h2>EL NIÑO</h2>
+                                <p>Fenômeno de aquecimento anormal do Oceano Pacífico Equatorial,
+                                causando secas no norte do Brasil e Austrália, além de chuvas 
+                                intensas no sul do Brasil e na costa oeste da América do Sul.</p>
+                            </div>
                         </div>
-                        <img src="./images/la nina - homem ilustracao.png" alt="">
+                        <div class="container-nina">
+                            <div class="container-nina-txt">
+                                <h2>LA NIÑA</h2>
+                                <p>Resfriamento anormal do Pacífico Equatorial, 
+                                resultando em chuvas fortes no norte e nordeste do Brasil 
+                                e secas no sul do país e em partes da América do Norte.</p>
+                            </div>
+                            <img src="./images/la nina - homem ilustracao.png" alt="">
+                        </div>
                     </div>
-                </div>
-            </section>
-            <section id="massa-ar" class="grupo">
+                </section>
+                <section id="massa-ar" class="grupo">
+                    <h1>MASSAS DE AR</h1>
+                    <div class="mapa-massas-ar">
+                        <img src="./images/massa de ar verao.png" alt="">
+                        <img src="./images/massa de ar inverno.png" alt="">
+                    </div>
+                    <div class="txt-massa-ar">
+                        <div class="titulo-massa-ar">
+                            <h2>As massas de ar são grandes volumes de ar que influenciam o
+                                clima das regiões que atravessam</h2>
+                        </div>
+                        <p>1. Massa Equatorial Continental (mEc):
+                            <br>• Origem: Região amazônica, sobre a floresta tropical.
+                            <br>• Características: Quente e extremamente úmida, devido à 
+                            evapotranspiração da floresta.
+                            <br>• Influência: Atua principalmente na região Norte, promovendo chuvas intensas,
+                            especialmente no verão.
+                            <br>
+                            <br>
+                            2. Massa Equatorial Atlântica (mEa):
+                            <br>• Origem: Oceano Atlântico próximo à linha do Equador.
+                            <br>• Características: Quente e úmida.
+                            <br>• Influência: Afeta a faixa litorânea do Nordeste, 
+                            contribuindo para chuvas tropicais e alta umidade.
+                            <br>
+                            <br>
+                            3. Massa Tropical Continental (mTc):
+                            <br>• Origem: Região do Chaco, no interior da América do Sul.
+                            <br>• Características: Quente e seca.
+                            <br>• Influência: Atua principalmente no Centro-Oeste e no interior das regiões
+                            Sudeste e Sul, causando períodos de calor intenso e baixa umidade, 
+                            especialmente no inverno.
+                            <br>
+                            <br>
+                            4. Massa Tropical Atlântica (mTa):
+                            <br>• Origem: Oceano Atlântico, na altura do Trópico de Capricórnio.
+                            <br>• Características: Quente e úmida.
+                            <br>• Influência: Predomina no litoral brasileiro, do Nordeste ao Sul, 
+                            favorecendo a formação de chuvas orográficas (quando o ar úmido sobe 
+                            ao encontrar barreiras montanhosas, como a Serra do Mar).
+                            <br>
+                            <br>
+                            5. Massa Polar Atlântica (mPa):
+                            <br>• Origem: Regiões polares do Atlântico Sul.
+                            <br>• Características: Fria e úmida.
+                            <br>• Influência: Afeta o Brasil principalmente durante o inverno, 
+                            causando queda de temperaturas, geadas, e até neve nas áreas mais altas do Sul. 
+                            No litoral, pode gerar frentes frias com chuvas e ventos.
+                        </p>
+                    </div>
+                </section>
+                <section  id="rodape" class="">
 
-            </section>
-        </div>
-    </main>
-</body>
+                </section>
+            </div>
+        </main>
+    </body>
 </html>

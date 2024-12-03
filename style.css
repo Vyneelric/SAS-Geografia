@@ -556,13 +556,71 @@ main {
     font-weight: 600;
 }
 
- 
-
-
-
-
 #massa-ar {
+    background-image: url('./images/Mapa\ mundi\ mascara.png');
+    background-size: 150%;
+    background-position: center;
+    background-repeat: no-repeat;   
+    font-family: "Abhaya Libre", serif;
+
     width: 100%;
-    height: 100vh;
-    background-color: crimson;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }    
+
+#massa-ar h1 {
+    margin-top: 20px;
+    color: #720D20;
+    font-size: 80px;
+}
+
+.mapa-massas-ar {
+    height: fit-content;
+    display: flex;
+    gap: 120px;
+    padding-bottom: 70px;
+}
+.mapa-massas-ar img {
+    height: 800px;
+}
+
+.txt-massa-ar {
+    box-shadow: 0px 5px 20px 6px rgba(0,0,0,0.2);   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%; 
+}
+
+.titulo-massa-ar {
+    background-color: #867869;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+
+}
+
+.txt-massa-ar h2 {
+    width: 100%;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 40px;
+} 
+
+.txt-massa-ar p {
+    width: 100%;
+    font-size: 18px;
+    background-color: #F6EFE4;
+}
+
+#rodape {
+    height: 30vh;
+    width: 100%;
+    
+}
