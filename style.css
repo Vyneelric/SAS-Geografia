@@ -61,7 +61,6 @@ header a:hover {
     opacity: 0.8; 
 }
 
-
 header ul li a {
     font-size: 28px;
     font-weight: 600;
@@ -166,10 +165,6 @@ main {
     z-index: 16;
     margin-top: 100px;
     font-size: 20px;
-}
-
-main {
-    width: 100%;
 }
 
 #zonas {
@@ -645,7 +640,7 @@ main {
 .txt-massa-ar p {
     z-index: 11;
     width: 100%;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
     background-color: #F6EFE4;
     padding: 8px;
@@ -704,11 +699,313 @@ main {
 }
 
 #perfis-github :hover {
-    transform: scale(1.05);
+    transform: s    cale(1.05);
 }
 
 #rodape h1 {
     color: white;
     font-size: 15px;
     font-weight: 300;
+}
+
+@media (max-width:960px){
+    header ul {
+        width: 85vw;
+        padding: 10px;
+        padding-right: 20px;
+    }
+
+    header ul li a {
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    #home {
+        width: 100%;
+        height: 150vh;  
+        color: #720D20; 
+        overflow: hidden;
+    }
+    
+    #home h2 { 
+        font-size: 12vw;
+    }
+    
+    #home h1 {
+        font-size: 20vw;
+    }
+    
+    #home h3 {
+        margin-top: 4vh;
+        font-size: 5vw;
+    }
+    
+    #home p {
+        width: 50vw;
+        font-size: 3vw;
+    }
+    
+    #home div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #zonas {
+        height: 75vh;
+    }
+    
+    #zonas .conteudo {
+        align-items: normal;
+        justify-content: normal;
+        width: 95%;
+        height: 65%;
+    }
+    
+    #zonas h1 {
+        margin-bottom: 40px;
+        font-size: 6vh;
+    }
+
+    #zonas-explicacao {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        height: 150vh;
+
+    }
+    
+    .header-explicacao-zonas {
+        width: 80%; 
+        padding-bottom: 50px;
+    }
+    
+    #zonas-explicacao h1 {
+        padding-top: 100px;
+        font-size: 90px;
+    }
+    
+    #zonas-explicacao p {
+        font-size: 25px;
+        width: fit-content;
+        padding-bottom: 20px;
+    }
+    
+    .polar {
+        width: 90%;
+        padding: 20px;
+        height: 30vh;
+    }
+    
+    .polar img {
+        height: 30vh;
+    }
+    
+    #txtpolar {
+        padding: 5px;
+        width: 90vw;
+    }
+    
+    #txtpolar h2{
+        padding-left: 20px;
+        padding-right: 20px; 
+        font-size: 50px;
+    }
+    
+    #txtpolar span{
+        font-size: 18px;
+    }
+
+    .temperado {
+        width: 90%;
+        padding: 20px;
+        height: 30vh;
+    }
+    
+    .temperado img {
+        height: 25vh;
+    }
+    
+    #txttemperado {
+        padding: 5px;
+        width: 90vw;
+    }
+    
+    #txttemperado h2{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 50px;
+    }
+    
+    #txttemperado span{
+        font-size: 18px;
+    }
+
+    .tropical {
+        width: 90%;
+        padding: 20px;
+        height: 30vh;
+    }
+    
+    .tropical img {
+        height: 25vh;
+    }
+    
+    #txttropical {
+        padding: 5px;
+        width: 90vw;
+    }
+    
+    #txttropical h2{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 50px;
+    }
+    
+    #txttropical span{
+        font-size: 18px;
+    }
+    
+    #nino-nina {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 75vh;
+    }
+    
+    #nino-nina h1 {
+        font-size: 90px;
+        margin-top: 500px;
+    }
+    
+    #nino-nina a {
+        gap: 10px;
+        display: flex;
+    }
+    
+    #nino-nina img {
+        height: 40%;
+    }
+
+    #explicacao-nino-nina {
+        height: 150vh;
+    }
+    
+    .informacoes-nino-nina {
+        width: 98%;
+    }
+    
+    .informacoes-nino-nina h1{
+        margin-top: 10px;
+        font-size: 60px;
+    }
+    
+    .informacoes-nino-nina h2{
+        z-index: 11;
+        color: #720D20;
+        margin-bottom: 20px;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    
+    .foto-info-nino-nina {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .informacoes-nino-nina img {
+        z-index: 11;
+        margin-bottom: 40px;
+        height: 20vh;
+    }
+
+    .container-txt-nino-nina {
+        width: 110%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container-txt-nino-nina h1{
+        z-index: 11;
+        color: #720D20;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 90px;
+
+    }
+    
+    .container-nino {
+        width: 100%;
+        gap: 50px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+    .container-nino img {
+        z-index: 11;
+        height: 25vh;
+    }
+    
+    .container-nino-txt {
+        padding: 20px;
+        width: 48%;
+    }
+    
+    .container-nino-txt h2 {
+        font-size: 50px;
+    }
+    
+    .container-nino-txt p {
+        font-size: 20px;
+    }
+
+    .container-nina {
+        width: 100%;
+        gap: 30px;
+    }   
+    
+    .container-nina img {
+        z-index: 11;
+        height: 30vh;
+    }
+    
+    .container-nina-txt {
+        padding: 20px;
+        width: 48%;
+    }
+    
+    .container-nina-txt h2 {
+        font-size: 50px;
+    }
+    
+    .container-nina-txt p {
+        font-size: 20px;
+    }
+
+    #massa-ar {
+        height: 150vh;
+    }    
+    
+    #massa-ar h1 {
+        z-index: 11;
+        margin-top: 20px;
+        font-size: 80px;
+    }
+    
+    .mapa-massas-ar {
+        height: fit-content;
+        display: flex;
+        gap: 30px;
+        padding-bottom: 70px;
+    }
+    .mapa-massas-ar img {
+        z-index: 11;
+        height: 450px;
+    }
+    
+    .txt-massa-ar {
+        width: 95%; 
+    }
 }
