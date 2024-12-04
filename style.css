@@ -9,7 +9,7 @@ html, body {
     scroll-behavior: smooth;
 }
 
-#home, #zonas, #zonas-explicacao, #nino-nina, #explicacao-nino-nina {
+#home, #zonas, #zonas-explicacao, #nino-nina, #explicacao-nino-nina, #massa-ar {
     position: relative;
 }
 
@@ -266,12 +266,14 @@ main {
 }
 
 #zonas-explicacao h1 {
+    z-index: 11;
     color: #720D20; 
     font-size: 120px;
     padding-top: 20px;
 }
 
 #zonas-explicacao p {
+    z-index: 11;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -293,10 +295,12 @@ main {
 }
 
 .polar img {
+    z-index: 11;
     height: 80vh;
 }
 
 #txtpolar {
+    
     background-color: #F6EFE4;
     padding: 10px;
     display: flex;
@@ -309,11 +313,13 @@ main {
 }
 
 #txtpolar h2{
+    z-index: 11;
     color: #720D20;
     font-size: 80px;
 }
 
 #txtpolar span{
+    z-index: 11;
     padding-left: 20px;
     padding-right: 20px;
     color: #720D20;
@@ -331,6 +337,7 @@ main {
 }
 
 .temperado img {
+    z-index: 11;
     height: 60vh;
 }
 
@@ -347,11 +354,13 @@ main {
 }
 
 #txttemperado h2{
+    z-index: 11;
     color: #720D20;
     font-size: 80px;
 }
 
 #txttemperado span{
+    z-index: 11;
     padding-left: 20px;
     padding-right: 20px;
     color: #720D20;
@@ -369,6 +378,7 @@ main {
 }
 
 .tropical img {
+    z-index: 11;
     padding-right: 8vw;
     height: 60vh;
 }
@@ -386,11 +396,13 @@ main {
 }
 
 #txttropical h2{
+    z-index: 11;
     color: #720D20;
     font-size: 80px;
 }
 
 #txttropical span{
+    z-index: 11;
     padding-left: 20px;
     padding-right: 20px;
     color: #720D20;
@@ -408,6 +420,7 @@ main {
 }
 
 #nino-nina h1 {
+    z-index: 11;
     font-family: "Abhaya Libre", serif;
     font-size: 70px;
     color: #720D20;
@@ -420,6 +433,7 @@ main {
 }
 
 #nino-nina img {
+    z-index: 11;
     border: 2px solid black;
     box-shadow: 0px 5px 20px 6px rgba(0,0,0,0.3);
     height: 80%;
@@ -457,12 +471,14 @@ main {
 }
 
 .informacoes-nino-nina h1{
+    z-index: 11;
     color: #720D20;
     margin-top: 10px;
     font-size: 80px;
 }
 
 .informacoes-nino-nina h2{
+    z-index: 11;
     color: #720D20;
     margin-bottom: 20px;
     font-size: 30px;
@@ -475,6 +491,7 @@ main {
 }
 
 .informacoes-nino-nina img {
+    z-index: 11;
     margin-bottom: 40px;
     height: 50vh;
 }
@@ -487,6 +504,7 @@ main {
 }
 
 .container-txt-nino-nina h1{
+    z-index: 11;
     color: #720D20;
     margin-top: 25px;
     font-size: 70px;
@@ -500,10 +518,12 @@ main {
 }
 
 .container-nino img {
+    z-index: 11;
     height: 50vh;
 }
 
 .container-nino-txt {
+    z-index: 11;
     padding: 20px;
     width: 48%;
     background-color: #F6EFE4;
@@ -512,11 +532,13 @@ main {
 }
 
 .container-nino-txt h2 {
+    z-index: 11;
     color: #720D20;
     font-size: 80px;
 }
 
 .container-nino-txt p {
+    z-index: 11;
     color: #720D20;
     padding-left: 20px;
     padding-right: 20px;
@@ -525,6 +547,7 @@ main {
 }
 
 .container-nina {
+    z-index: 11;
     gap: 200px;
     display: flex;
     align-items: center;
@@ -549,6 +572,7 @@ main {
 }
 
 .container-nina-txt p {
+    z-index: 11;
     color: #720D20;
     padding-left: 20px;
     padding-right: 20px;
@@ -557,6 +581,7 @@ main {
 }
 
 #massa-ar {
+    z-index: 11;
     background-image: url('./images/Mapa\ mundi\ mascara.png');
     background-size: 150%;
     background-position: center;
@@ -571,6 +596,7 @@ main {
 }    
 
 #massa-ar h1 {
+    z-index: 11;
     margin-top: 20px;
     color: #720D20;
     font-size: 80px;
@@ -583,6 +609,7 @@ main {
     padding-bottom: 70px;
 }
 .mapa-massas-ar img {
+    z-index: 11;
     height: 800px;
 }
 
@@ -595,30 +622,53 @@ main {
 }
 
 .titulo-massa-ar {
+    z-index: 11;
     background-color: #867869;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     width: 100%;
+    max-width: 100%;
 
 }
 
 .txt-massa-ar h2 {
-    width: 100%;
+    z-index: 11;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     padding-top: 20px;
     padding-bottom: 20px;
     color: white;
-    font-size: 40px;
+    font-size: 35px;
 } 
 
 .txt-massa-ar p {
+    z-index: 11;
     width: 100%;
     font-size: 18px;
     font-weight: 500;
     background-color: #F6EFE4;
     padding: 8px;
+}
+
+.quadrado-vermelho {
+    color: #D3471D;
+}
+
+.quadrado-amarelo {
+    color: #EC9B20;
+}
+
+.quadrado-rosa {
+    color: #C554E7;
+}
+
+.quadrado-verde {
+    color: #2FEB7E;
+}
+
+.quadrado-azul {
+    color: #4382C4;
 }
 
 #rodape {
@@ -650,6 +700,11 @@ main {
     color: white;
     font-size: 18px;
     font-weight: 300;
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+#perfis-github :hover {
+    transform: scale(1.05);
 }
 
 #rodape h1 {
