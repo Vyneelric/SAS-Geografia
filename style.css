@@ -616,11 +616,44 @@ main {
 .txt-massa-ar p {
     width: 100%;
     font-size: 18px;
+    font-weight: 500;
     background-color: #F6EFE4;
+    padding: 8px;
 }
 
 #rodape {
+    font-family: "Albert Sans", sans-serif;
     height: 30vh;
     width: 100%;
-    
+    background-color: #720D20;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#rodape img {
+    height: 50px;
+}
+
+.perfis-github {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 20px;
+}
+
+.perfis-github a {
+    text-decoration: underline;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#rodape h1 {
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
 }
